@@ -1,1 +1,1 @@
-CloudSolution to DevOps maanaging your cicd pipeline setting Automation for class server2024
+CloudSolution to DevOps managing our CICD pipeline setting Automation for plaw set up server2024
