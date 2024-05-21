@@ -11,7 +11,7 @@ pipeline{
                  git 'https://github.com/Plaw777/lawrenceRN.git'
               }
           }
-          stage('Compile'){
+          stage('Compile with maven'){
               steps{
                   echo 'compiling..'
                   sh 'mvn compile'
