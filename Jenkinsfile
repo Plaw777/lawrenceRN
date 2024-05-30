@@ -20,7 +20,7 @@ pipeline{
           stage('CodeReview with maven'){
               steps{
 		    
-		  echo 'codeReview'
+		  echo 'Programming Mistakes And Vulnerabilities'
                   sh 'mvn pmd:pmd'
               }
           }
