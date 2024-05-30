@@ -5,19 +5,19 @@ pipeline{
     }
 	agent any
       stages{
-           stage('Checkout'){
+           stage('Checkout with git'){
               steps{
-		 echo 'cloning..'
+		 echo 'cloning repository..'
                  git 'https://github.com/Plaw777/lawrenceRN.git'
               }
           }
           stage('Compile with maven'){
               steps{
-                  echo 'compiling..'
-                  sh 'mvn compile'
+                  echo 'high level language to machine language..'
+                  sh 'mvn compile' 
 	      }
           }
-          stage('CodeReview'){
+          stage('CodeReview with maven'){
               steps{
 		    
 		  echo 'codeReview'
